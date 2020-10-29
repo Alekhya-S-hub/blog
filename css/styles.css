@@ -1,13 +1,12 @@
 #title{
   background-color: #ff4c68;
   color: white;
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 body{
   font-family: "Montserrat";
-
-}
+  }
 
 h1{
   font-family: "Montserrat-black", sans-serif;
@@ -64,6 +63,8 @@ p{
 .title-image{
   width:60%;
   transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
 }
 
 
@@ -71,6 +72,9 @@ p{
 
 #features{
   padding: 7% 15%;
+  background-color: white;
+  position: relative  ;
+  z-index: 1;
 }
 
 .feature-box{
@@ -134,7 +138,32 @@ margin: 20px 20px 50px;
   text-align: center;
 }
 
-
+/* CTA Section */
 #cta{
   background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 7% 15%;
+}
+
+#footer{
+  paading 7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+
+@media (max-width: 1028px)
+{
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
 }
